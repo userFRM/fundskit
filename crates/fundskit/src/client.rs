@@ -360,7 +360,6 @@ mod tests {
             h("FUND", 1, "CCC333333", "Issuer C", 20240630, 5000),
             h("FUND", 1, "DDD444444", "Issuer D", 20240630, 3000),
         ];
-        let rows = rows.as_slice();
         use std::collections::HashSet;
         let period = 20240630;
         let prior: HashSet<&str> = rows
